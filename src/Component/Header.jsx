@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LOGO } from "../assets/Images/im";
+import { LOGO, LOGOS } from "../assets/Images/im";
 import { Menu } from "lucide-react";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
     <header className="h-[7vh] w-full flex items-center justify-between px-6 md:px-12  bg-gradient-to-r from-blue-50 to-purple-200 fixed top-0 left-0 right-0 z-50">
       {/* Logo */}
       <div>
-        <h1 className="text-[1.5vw] font-[poppins] font-[600]">Sereniq</h1>
+        <img src={LOGOS} className="w-15" alt="" />
       </div>
 
       {/* Navigation (Hidden on Mobile) */}

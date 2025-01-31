@@ -1,5 +1,5 @@
 import React from 'react'
-import { MEDI } from '../assets/Images/im'
+import { MEDI, XXX } from '../assets/Images/im'
 
 const Explore = () => {
   return (
@@ -16,7 +16,7 @@ Medication therapy plays a fundamental role in modern healthcare by helping to p
         </div>
     
         <div className='right w-[50%]'>
-        <img className='rounded-4xl' src={MEDI} alt="" />
+        <img className='rounded-4xl w-[70%]' src={XXX} alt="" />
         </div>
       </div>
     </div>

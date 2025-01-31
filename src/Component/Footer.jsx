@@ -1,13 +1,14 @@
 import React from "react";
+import { LOGOS } from "../assets/Images/im";
 
 const Footer = () => {
   return (
     <div className=" px-[5vw] bg-gradient-to-r w-full from-blue-50 to-purple-200 ">
-      <div class="w-full  mx-auto  md:py-8">
+      <div class="w-full     mx-auto  md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black font-[poppins]">Sereniq</span>
+                <img src={LOGOS} className="w-15" alt="" />
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-black sm:mb-0 dark:text-black">
                 <li>

@@ -6,6 +6,9 @@ import Form from './Component/Form'
 import Explore from './Component/Explore'
 import Art from './Component/Art'
 import Footer from './Component/Footer'
+import Colsultancy from './Component/Colsultancy'
+import Community from './Component/Community'
+import Blog from './Component/Blog'
 const App = () => {
   return (
    <>
@@ -13,8 +16,12 @@ const App = () => {
    <Slider/>
    <Explore/>
    <Art/>
+   <Colsultancy/>
+   <Community/>
+   <Blog/>
    <Form/>
    <Footer/>
+  
    </>
   )
 }
