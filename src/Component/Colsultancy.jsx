@@ -53,9 +53,9 @@ const Consultancy = () => {
   };
 
   return (
-    <div className='w-full px-[3vw] h-screen bg-gradient-to-r from-blue-50 to-purple-200'>
-      <h1 className='text-[4vw] leading-[4vw] capitalize font-[poppins]'>
-        <span className='text-blue-500 text-[7vw] opacity-80'>How</span> Would you consult your psychiatrist?
+    <div className='w-full px-[3vw] py-[4vw] h-screen bg-gradient-to-r from-blue-50 to-purple-200'>
+      <h1 className='text-[3vw] leading-[4vw] capitalize font-[poppins]'>
+        <span className='text-blue-500 text-[5vw] opacity-80'>How</span> Would you consult your psychiatrist?
       </h1>
       <div className='box w-full mt-[2vw] flex justify-between'>
         <div

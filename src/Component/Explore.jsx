@@ -3,8 +3,8 @@ import { MEDI, XXX } from '../assets/Images/im'
 
 const Explore = () => {
   return (
-    <div className='w-full px-[3vw] py-[4vw] h-screen bg-gradient-to-r from-blue-50 to-purple-200'>
-      <h1 className='font-[poppins] text-[5vw] opacity-90'>Explore What we Offer.</h1>
+    <div className='w-full px-[3vw] py-[2vw] h-screen bg-gradient-to-r from-blue-50 to-purple-200'>
+      <h1 className='font-[poppins] text-[4vw] opacity-90'>Explore What we Offer.</h1>
       <div className='flex justify-between w-full '>
      
      <div className='left w-[49%]' style={{fontFamily: 'monospace'}}>

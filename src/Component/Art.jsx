@@ -14,7 +14,7 @@ const Art = () => {
 
   return (
     <div className='w-full px-[3vw] py-[4vw] h-screen bg-gradient-to-r from-blue-50 to-purple-200'>
-      <h1 className='font-[poppins] text-right text-[5vw] opacity-90'>Art and Painting Therapy</h1>
+      <h1 className='font-[poppins] mt-10 text-right text-[4vw] opacity-90'>Art and Painting Therapy</h1>
       <div className='flex mt-5 gap-[3vw] w-full'>
         <div className='left w-[50%]'>
           <img className='rounded-4xl w-[50%]' src={A} alt="Art Therapy" />

@@ -20,6 +20,7 @@ export const MEDI = medi;
 export const ART = art;
 export const COM = com;
 export const CRY = cry;
+export const LL = ll;
 export const XXX = xxx;
 export const A = a;
 export const LOGOS = logos;

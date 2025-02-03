@@ -4,7 +4,7 @@ import { ArrowBigRight, Send, Smile, SmileIcon } from 'lucide-react';
 
 const Form = () => {
   return (
-    <div className='w-full px-[3vw] py-[4vw] h-screen bg-gradient-to-r from-blue-50 to-purple-200'>
+    <div className='w-full  px-[3vw] py-[vw] h-screen bg-gradient-to-r from-blue-50 to-purple-200'>
       <div className='leading-[4vw]'>
         <h1 className='font-[poppins] text-[4vw]'>Have a <span className='text-purple-300'>Question ?</span></h1>
         <h1 className='font-[poppins] text-[5vw]'>Ready to<span className='text-blue-600 text-[6vw] opacity-70'> Start ?</span></h1>
@@ -19,7 +19,7 @@ const Form = () => {
             </div>
             <div>
             <div className="flex gap-15">
-           <h1 className="text-[4vw] opacity-70 font-[100]" style={{fontFamily:'monospace'}}>
+           <h1 className="text-[2vw] opacity-70 font-[100]" style={{fontFamily:'monospace'}}>
           My name is
          </h1>
          <input 
@@ -31,7 +31,7 @@ const Form = () => {
       </div>
 
       <div className="flex gap-16 mt-7">
-           <h1 className="text-[4vw] font-[100] opacity-70" style={{fontFamily:'monospace'}}>
+           <h1 className="text-[2vw] font-[100] opacity-70" style={{fontFamily:'monospace'}}>
           I'm from
          </h1>
          <input 
@@ -43,7 +43,7 @@ const Form = () => {
       </div>
 
       <div className="flex gap-10 mt-7">
-           <h1 className="text-[4vw] opacity-70 font-[100]" style={{fontFamily:'monospace'}}>
+           <h1 className="text-[2vw] opacity-70 font-[100]" style={{fontFamily:'monospace'}}>
           Here is  my email
          </h1>
          <input 
@@ -54,7 +54,7 @@ const Form = () => {
        />
       </div>
       <div className="flex gap-10 mt-8">
-           <h1 className="text-[4vw] opacity-70 font-[100]" style={{fontFamily:'monospace'}}>
+           <h1 className="text-[2vw] opacity-70 font-[100]" style={{fontFamily:'monospace'}}>
           Add a message
          </h1>
          <input 
@@ -66,8 +66,8 @@ const Form = () => {
       </div>
       
     </div>
-     <button style={{fontFamily: 'monospace'}} className='bg-blue-500  opacity-80 text-white  mt-4 pl-[2vw] flex items-center relative  font-[500] pr-[20vw] text-[2vw] rounded-full '>Sumbit
-     <Send className='absolute right-10  ' size={40}  />
+     <button style={{fontFamily: 'monospace'}} className='bg-blue-500  opacity-80 text-white  mt-4 pl-[2vw] flex items-center relative  font-[500] pr-[5vw] text-[1.5vw] rounded-full '>Sumbit
+     <Send className='absolute right-10  ' size={20}  />
      </button>
         </div>
       </div>
