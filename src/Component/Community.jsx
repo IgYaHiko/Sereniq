@@ -3,7 +3,7 @@ import { COM, CRY, LL } from '../assets/Images/im';
 
 const Community = () => {
   return (
-    <div className='w-full py-1 h-[320vh]  bg-gradient-to-r from-blue-50 to-purple-200 text-white flex flex-col items-center'>
+    <div className='w-full py-1 h-[400vh]  bg-gradient-to-r from-blue-50 to-purple-200 text-white flex flex-col items-center'>
       {/* Title at the top */}
       <h1 className='text-[1.5vw] font-[poppins] bg-black bg-opacity-50 px-6 py-3 rounded-lg mt-8' >Register now for appointment notification blog approval and renewal</h1>
       <h1 className='text-[1.5vw] font-[poppins] bg-black bg-opacity-50 px-6 py-3 rounded-lg mt-8'>
