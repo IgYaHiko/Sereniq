@@ -42,12 +42,12 @@ const Header = () => {
                 </li>
                 <li>
                   <button className="block w-full text-left px-4 py-2 hover:bg-blue-100">
-                    Spanish
+                    Bengali
                   </button>
                 </li>
                 <li>
                   <button className="block w-full text-left px-4 py-2 hover:bg-blue-100">
-                    French
+                    Hindi
                   </button>
                 </li>
               </ul>
